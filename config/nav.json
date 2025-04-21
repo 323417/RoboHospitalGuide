@@ -1,59 +1,76 @@
 {
     "Diagnostic & Support": {
       "path": [
-        { "action": "moveForward", "value": 1000 },
-        { "action":"turnLeft", "value": 30}
+        { "action": "moveForward", "value": 100 },
+        { "action": "turnLeft", "value": 30},
+        { "action": "moveForward", "value": 2000 }
       ]
     },
     "Emergency Room": {
       "path": [
-        { "action": "moveForward", "value": 800 },
-        { "action": "turnRight", "value": 90 }
+        { "action": "moveForward", "value": 100 },
+        { "action": "turnLeft", "value": 30},
+        { "action": "moveForward", "value": 2000 },
+        { "action": "turnLeft", "value": 30},
+        { "action": "moveForward", "value": 2000 }
       ]
     },
     "Outpatient Department": {
       "path": [
-        { "action": "moveForward", "value": 600 },
-        { "action": "turnLeft", "value": 90 }
+        { "action": "moveForward", "value": 100 },
+        { "action": "turnRight", "value": 30 },
+        { "action": "moveForward", "value": 4000 },
+        { "action": "turnRight", "value": 30 },
+        { "action": "moveForward", "value": 2000 }
       ]
     },
     "Specialty Clinics": {
       "path": [
-        { "action": "moveForward", "value": 500 }
+        { "action": "moveForward", "value": 100 },
+        { "action": "turnLeft", "value": 30},
+        { "action": "moveForward", "value": 2000 },
+        { "action": "turnRight", "value": 30 },
+        { "action": "moveForward", "value": 2000 }
       ]
     },
     "Mental Health & Rehab": {
       "path": [
-        { "action": "moveForward", "value": 500 },
-        { "action": "turnRight", "value": 45 }
+        { "action": "moveForward", "value": 2000 }
       ]
     },
     "Internal Medicine Departments": {
       "path": [
-        { "action": "moveForward", "value": 700 }
+        { "action": "moveForward", "value": 1000 }
       ]
     },
     "Restroom / Toilet": {
       "path": [
-        { "action": "turnRight", "value": 90 },
-        { "action": "moveForward", "value": 1000 }
+        { "action": "moveForward", "value": 100 },
+        { "action": "turnRight", "value": 30 },
+        { "action": "moveForward", "value": 2000 },
+        { "action": "turnLeft", "value": 30 },
+        { "action": "moveForward", "value": 2000 }
       ]
     },
     "Surgical Departments": {
       "path": [
-        { "action": "moveForward", "value": 1200 }
+        { "action": "moveForward", "value": 100 },
+        { "action": "turnRight", "value": 30 },
+        { "action": "moveForward", "value": 1000 }
       ]
     },
     "Obstetrics, Gynecology, Pediatrics": {
       "path": [
-        { "action": "turnLeft", "value": 90 },
-        { "action": "moveForward", "value": 1400 }
+        { "action": "moveForward", "value": 100 },
+        { "action": "turnRight", "value": 30 },
+        { "action": "moveForward", "value": 3000 }
       ]
     },
     "Patient Rooms": {
       "path": [
-        { "action": "moveForward", "value": 2000 },
-        { "action": "turnLeft", "value": 45 }
+        { "action": "moveForward", "value": 100 },
+        { "action": "turnRight", "value": 30 },
+        { "action": "moveForward", "value": 4000 }
       ]
     }
   }
